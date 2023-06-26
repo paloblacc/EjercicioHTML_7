@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;400&family=Montserrat:ital,wght@0,100;0,200;1,300&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+html{
+    background-color: #161717;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 450px;
+    margin: auto;
+}
+.buttons {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+.boton-glg {
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+.boton-glg picture {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton-glg span {
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
+.boton-glg:hover {
+    opacity: 0.60;
+}
+.boton-glg picture img {
+    width: 75%;
+}
+
+.witter-golo {
+    color: #ccc;
+    background-color: #eee;
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.witter-golo:hover {
+    background-color: #ddd;
+    color: #eee;
+}
+.separador {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.separador hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.separador span {
+    color: #8b8b8b;
+}
+
+
+.section-input {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 40px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span {
+    font-weight: 700;
+}
+
+.section-input label input {
+    width: 80%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14pt;
+}
+
+label input {
+    width: 90%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadw 0.2s;
+}
+
+label input:hover {
+    background-color: #454045;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #ab2322;
+}
+
+label input:focus {
+    background-color: #454045;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #ab2322;
+}
+
+.chk-lbl {
+    display: flex;
+    flex-direction: row;
+}
+
+.chk-lbl input[type="checkbox"] {
+    width: 20px;
+}
+
+.chk-lbl span {
+    font-weight: 400;
+}
+
+.smt-btn {
+    background-color: #ea4c89;
+    color: white;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.smt-btn:hover {
+    opacity: 0.75;
+}
